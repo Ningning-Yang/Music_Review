@@ -13,7 +13,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 
 <!-- Sidebar (hidden by default) -->
 <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
-  <a href="#album" onclick="w3_close()" class="w3-bar-item w3-button">PAN Records</a>
+  <a href="#album" onclick="w3_close()" class="w3-bar-item w3-button">Albums</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
 </nav>
 
@@ -35,31 +35,44 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
       <img src="Image/X&Y_cover.png" style="width:100%">
       <h3>X&Y by Coldplay 2005</h3>
       <p>Top Pick: Fix You</p>
+      <a href = "FY.html"> 
+        <button type="button" id="myBtn" onclick="myFunction()">Andy Grammar</button>
+      </a>
+      
     </div>
     <div class="w3-quarter">
       <img src="Image/TGP.png" style="width:100%">
       <h3>The Good Parts by Andy Grammer</h3>
       <p>Top Pick: The Good Parts</p>
+      <a href = "X&Y.html"> 
+        <button type="button" id="myBtn" onclick="myFunction()">Andy Grammar</button>
+      </a>
+
     </div>
     <div class="w3-quarter">
       <img src="Image/KIA.png" style="width:100%">
       <h3>Know It All by Alessia Cara</h3>
       <p>Top Pick: Scars to your beautiful</p>
+      <a href = "X&Y.html"> 
+        <button type="button" id="myBtn" onclick="myFunction()">Andy Grammar</button>
+      </a>
       
     </div>
     <div class="w3-quarter">
       <img src="/w3images/wine.jpg" alt="Pasta and Wine" style="width:100%">
       <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
       <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <a href = "X&Y.html"> 
+        <button type="button" id="myBtn" onclick="myFunction()">Andy Grammar</button>
+      </a>
     </div>
   </div>
   
   <hr id="about">
-
   <!-- About Section -->
   <div class="w3-container w3-padding-32 w3-center">  
     <h3>About Us</h3><br>
-    <img src="/w3images/chef.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <img src="Image/records.jpeg" alt="Me" class="w3-image" style="display:block;margin:auto" width="400" height="200">
     <div class="w3-padding-32">
       <h4><b>PAN Records</b></h4>
       <h6><i>With Passion for Music</i></h6>
@@ -70,17 +83,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
   
   <!-- Footer -->
   <footer class="w3-row-padding w3-padding-32">
-    <div class="w3-third">
-      <h3>FOOTER</h3>
-      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    <div class="w3-show-inline-block">
+      <h3>Contact</h3>
+      <ul>
+        <li>Piper</li>
+        <li>Ayesha</li> 
+        <li>Nosheen</li>
+    </ul>
     </div>
   
     <div class="w3-third">
       <h3>BLOG POSTS</h3>
       <ul class="w3-ul w3-hoverable">
         <li class="w3-padding-16">
-          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <img src="Image/records.jpeg" class="w3-left w3-margin-right" style="width:50px">
           <span class="w3-large">Lorem</span><br>
           <span>Sed mattis nunc</span>
         </li>
